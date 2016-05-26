@@ -179,7 +179,7 @@ public class ComputerPlayer implements Connect4Player {
 				}
 			}
 
-			// Check to see if inserting at a particular slot will creating
+			// Check to see if inserting at a particular slot will create
 			// a winning condition for the player next turn
 			if (checkWillWinNext(copyOfColumns, e, _playerToken)) {
 				e.incrementRank(20);
